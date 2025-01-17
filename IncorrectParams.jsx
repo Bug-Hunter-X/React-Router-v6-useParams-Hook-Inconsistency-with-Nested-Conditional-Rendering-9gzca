@@ -1,0 +1,1 @@
+In React Router Dom v6, using the `useParams` hook inside a component that's not directly rendered by a route can lead to unexpected behavior.  If the component is nested deeply or conditionally rendered, the `params` object might not update correctly when the URL changes. This often results in stale data being displayed or unexpected rendering behavior.
